@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px) {
+
+  .mobile_view {
+    display: contents;
+  }
+   
+.logo img {
+    width: 50%;
+}
+
+.cart-menu ul {
+    justify-content: center;
+    padding: 5px;
+}
+.menu-btn{
+  margin-top: 10px;
+}
+  .top-grid {
+    display: none;
+  }
+  .search{
+    display: none;
+  }
+  .menu-home{
+    display: none;
+  }
+
+  .bannerItem img {
+      height: 150px;
+    } 
+  .show-on-small {
+    display: block;
+    margin-bottom: 15px;
+  }
+ 
+ .loginSidebar{
+  display: none;
+ }
+}

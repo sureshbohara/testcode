@@ -1,0 +1,20 @@
+
+ .center-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+.card{
+	border-radius: #198754!important;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.passwordShow{
+    position: absolute;
+    right: 25px;
+    transform: translate(0,-50%);
+    cursor: pointer;
+    margin-top: -17px;
+   }

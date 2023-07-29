@@ -1,0 +1,80 @@
+.gap {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-home {
+    background: white;
+    
+}
+
+.menu {
+    list-style: none;
+    font-size: 14px;
+    position: relative;
+    padding: 0 0 0 4px;
+    margin: 0;
+    padding: 15px;
+}
+.menu > li {
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+
+.menu > li > a {
+    padding: 2px 2px;
+    display: block;
+}
+
+.menu a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+
+
+.megadrop {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 85%;
+  transform: translateX(10px);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  min-width: 250px;
+     text-align: left;
+    padding: 10px;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.menu li:hover + .megadrop,
+.megadrop:hover {
+   top: 0;
+  display: block;
+}
+
+
+
+.grid-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-col ul li {
+  margin-bottom: 5px;
+}
+
+.grid-col ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.bannerItem img{
+  width: 100%;
+  height: 350px;
+}
